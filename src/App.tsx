@@ -16,8 +16,8 @@ export default function App() {
             <Navbar />
             <Routes>
                 <Route path="/" element={<HomePage />} />
-                <Route path="/generate" element={<Generate />} />
-                <Route path="/generate/:id" element={<Generate />} />
+                <Route path="/genrate" element={<Generate />} />
+                <Route path="/genrate/:id" element={<Generate />} />
                 <Route path="/my-generation" element={<MyGeneration />} />
                 <Route path="/preview" element={<YtPreview />} />
                 <Route path="/login" element={<Login />} />
